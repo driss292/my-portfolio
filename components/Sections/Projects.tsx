@@ -7,6 +7,7 @@ import {
   CardDescription,
   CardContent,
 } from "../ui/card";
+import { projectsData } from "@/lib/projectsData";
 
 export default function Projects() {
   return (
@@ -19,16 +20,16 @@ export default function Projects() {
           <span className="border-b-2 border-pink-600">Mes Projets</span>
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-          {[1, 2, 3, 4, 5, 6].map((project) => (
-            <Card key={project} className="flex flex-col">
+          {projectsData.map((project) => (
+            <Card key={project.id} className="flex flex-col">
               <CardHeader>
-                <CardTitle>Project {project}</CardTitle>
-                <CardDescription>A short project description</CardDescription>
+                <CardTitle>Project {project.title}</CardTitle>
+                <CardDescription>{project.description}</CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col flex-grow">
                 <Image
-                  src={`/placeholder.svg?height=200&width=400`}
-                  alt={`Project ${project}`}
+                  src={project.image}
+                  alt={`Project ${project.title}`}
                   width={400}
                   height={200}
                   className="object-cover w-full h-48 mb-4 rounded-md"

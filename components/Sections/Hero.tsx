@@ -40,7 +40,7 @@ export default function Hero() {
               >
                 <Button
                   size="icon"
-                  className="bg-[#333] hover:bg-[#333]/50 w-24 h-16"
+                  className="bg-[#333] hover:bg-[#595555] w-24 h-16"
                 >
                   {/* <Github style={{ width: "36px", height: "36px" }} /> */}
                   <FaGithub style={{ width: "36px", height: "36px" }} />
@@ -54,7 +54,7 @@ export default function Hero() {
               >
                 <Button
                   size="icon"
-                  className="bg-[#2563eb] hover:bg-[#2563eb]/50 w-24 h-16"
+                  className="bg-[#2563eb] hover:bg-[#5177c9] w-24 h-16"
                 >
                   <FaLinkedinIn style={{ width: "36px", height: "36px" }} />
                   <span className="sr-only">LinkedIn</span>
@@ -63,7 +63,7 @@ export default function Hero() {
               <Link href="mailto:drisskaci@gmail.com">
                 <Button
                   size="icon"
-                  className="bg-[#6fc2b0] hover:bg-[#6fc2b0]/50  w-24 h-16"
+                  className="bg-[#6fc2b0] hover:bg-[#5e9186]  w-24 h-16"
                 >
                   <Mail style={{ width: "36px", height: "36px" }} />
                   <span className="sr-only">Email</span>
@@ -76,7 +76,7 @@ export default function Hero() {
               >
                 <Button
                   size="icon"
-                  className="bg-[#ffbc02] hover:bg-[#ffbc02c3]/50 w-24 h-16"
+                  className="bg-[#ffbc02] hover:bg-[#e2c36ec3] w-24 h-16"
                 >
                   <SiReaddotcv
                     style={{ width: "36px", height: "36px", color: "black" }}

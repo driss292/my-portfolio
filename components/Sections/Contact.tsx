@@ -5,7 +5,7 @@ import { Textarea } from "../ui/textarea";
 export default function Contact() {
   return (
     <section
-      className="min-h-screen flex items-center justify-center py-20 px-4 md:px-6 bg-[#0b192e]/50 border-b border-pink-600"
+      className="min-h-screen flex items-center justify-center  px-4 md:px-6 bg-[#0b192e]/50 border-b border-pink-600"
       id="contact"
     >
       <div className="w-full max-w-3xl mx-auto">

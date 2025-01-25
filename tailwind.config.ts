@@ -10,6 +10,12 @@ export default {
   ],
   theme: {
     extend: {
+      background: {
+        "custom-grid": `radial-gradient(circle, transparent 20%, #0b192e 20%, #0b192e 80%, transparent 80%, transparent) 0% 0% / 56px 56px,
+                       radial-gradient(circle, transparent 20%, #0b192e 20%, #0b192e 80%, transparent 80%, transparent) 28px 28px / 56px 56px,
+                       linear-gradient(#182940 4px, transparent 4px) 0px -2px / 28px 28px,
+                       linear-gradient(90deg, #182940 4px, #0b192e 4px) -2px 0px / 28px 28px`,
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
