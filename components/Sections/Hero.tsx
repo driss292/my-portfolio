@@ -1,4 +1,3 @@
-import { Mail } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { SiReaddotcv } from "react-icons/si";
 import { Button } from "../ui/button";
@@ -58,15 +57,6 @@ export default function Hero() {
                 >
                   <FaLinkedinIn style={{ width: "36px", height: "36px" }} />
                   <span className="sr-only">LinkedIn</span>
-                </Button>
-              </Link>
-              <Link href="mailto:drisskaci@gmail.com">
-                <Button
-                  size="icon"
-                  className="bg-[#6fc2b0] hover:bg-[#5e9186]  w-24 h-16"
-                >
-                  <Mail style={{ width: "36px", height: "36px" }} />
-                  <span className="sr-only">Email</span>
                 </Button>
               </Link>
               <Link

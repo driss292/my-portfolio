@@ -4,11 +4,14 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import { useState } from "react";
 import { Menu } from "lucide-react";
+// import DebugTailwind from "../ui/debugTailwind";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav className="bg-[#0b192e]/95 backdrop-blur supports-[backdrop-filter]:bg-[#0b192e]/60 sticky top-0 z-50 w-full border-b border-pink-600">
+      {/* <DebugTailwind /> */}
+
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
