@@ -20,6 +20,7 @@ export default function StackContainer({ stacks }: StackContainerProps) {
               relative
             bg-[#182940]
               w-12 h-12
+              md:w-10 md:h-10
               rounded-full
               overflow-hidden
               border

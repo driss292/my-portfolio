@@ -4,7 +4,7 @@ export const projectsData = [
     title: "Poker Odds Calculator",
     description: " Calculateur de probabilités au poker.",
     type: "Projet perso",
-    image: "/project_img.jpg",
+    image: "/poker-odds.png",
     stack: [
       {
         id: 1,
@@ -22,7 +22,7 @@ export const projectsData = [
     title: "Malin & Demi",
     description: "Site de vente de meubles d'occasion",
     type: "Projet groupe",
-    image: "/project_img.jpg",
+    image: "/waiting.png",
     stack: [
       {
         id: 1,
@@ -40,7 +40,7 @@ export const projectsData = [
     title: "Claire dans les nuages",
     description: "Portfolio de Claire Chevalier",
     type: "Projet perso",
-    image: "/project_img.jpg",
+    image: "/test-CC.png",
     stack: [
       { id: 1, src: "/icon/next.svg", alt: "Next.js" },
       { id: 2, src: "/icon/ts.svg", alt: "TypeScript" },

@@ -19,7 +19,7 @@ export default function Projects() {
           {projectsData.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col  bg-white rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 relative overflow-hidden"
+              className="flex flex-col rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 relative overflow-hidden"
             >
               <div className="absolute right-0 top-0 h-16 w-16">
                 <div className="absolute transform rotate-45 bg-blue-700 text-center text-white font-semibold py-1 right-[-35px] top-[32px] w-[170px]">
@@ -27,10 +27,10 @@ export default function Projects() {
                 </div>
               </div>
               <Image
-                width={384}
-                height={100}
+                width={250}
+                height={50}
                 className="rounded-t-lg object-cover w-full"
-                src="/project_img.jpg"
+                src={project.image}
                 alt={`Project ${project.title}`}
               />
               <div className="bg-[#182940] px-3 py-5">
@@ -48,7 +48,7 @@ export default function Projects() {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="max-w-1/2 inline-flex items-center px-2 py-2 text-sm font-bold text-center text-black bg-[#ccd6f6] rounded-lg hover:bg-[#dee4f8] focus:ring-4 focus:outline-none focus:ring-blue-300"
+                    className="lg:max-w-1/2 md:max-w-20 inline-flex items-center md:text-xs  px-2 py-2 text-sm font-bold text-center text-black bg-[#ccd6f6] rounded-lg hover:bg-[#dee4f8] focus:ring-4 focus:outline-none focus:ring-blue-300"
                   >
                     Voir plus{" "}
                     <FaGithub
