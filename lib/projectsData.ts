@@ -33,7 +33,7 @@ export const projectsData = [
       { id: 3, src: "/icon/SpringBoot.svg", alt: "Spring Boot" },
       { id: 4, src: "/icon/mysql.svg", alt: "MySql" },
     ],
-    githubLink: "https://github.com/driss292/poker-odds-calculator",
+    githubLink: "https://github.com/driss292/MalinEtDemi",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const projectsData = [
       { id: 3, src: "/icon/tail.svg", alt: "tailwindCSS" },
       { id: 4, src: "/icon/fm.svg", alt: "Framer Motion" },
     ],
-    githubLink: "https://github.com/driss292/poker-odds-calculator",
+    githubLink: "https://github.com/driss292/ClaireDansLesNuages",
   },
   // {
   //   id: 4,
