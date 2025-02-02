@@ -4,6 +4,7 @@ type StackItem = {
   id: number;
   src: string;
   alt: string;
+  name: string;
 };
 
 type StackContainerProps = {
@@ -34,8 +35,8 @@ export default function StackContainer({ stacks }: StackContainerProps) {
             `}
         >
           <Image
-            width={0}
-            height={0}
+            width={40}
+            height={40}
             src={avatar.src}
             alt={avatar.alt}
             className="w-full h-full object-contain"

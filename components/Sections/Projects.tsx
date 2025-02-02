@@ -19,7 +19,7 @@ export default function Projects() {
           {projectsData.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 relative overflow-hidden"
+              className="flex flex-col rounded-lg dark:bg-gray-800 dark:border-gray-700 relative overflow-hidden shadow-sm hover:scale-105 duration-500"
             >
               <div className="absolute right-0 top-0 h-16 w-16">
                 <div className="absolute transform rotate-45 bg-blue-700 text-center text-white font-semibold py-1 right-[-35px] top-[32px] w-[170px]">
@@ -40,7 +40,7 @@ export default function Projects() {
                 <p className="mb-3 font-normal text-[#ccd6f6] md:text-xs lg:text-sm xl:text-xl">
                   {project.description}
                 </p>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-center">
                   <div className="w-1/2">
                     <StackContainer stacks={project.stack} />
                   </div>
@@ -48,9 +48,9 @@ export default function Projects() {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="lg:max-w-1/2 md:max-w-20 inline-flex items-center md:text-xs  px-2 py-2 text-sm font-bold text-center text-black bg-[#ccd6f6] rounded-lg hover:bg-[#dee4f8] focus:ring-4 focus:outline-none focus:ring-blue-300"
+                    className="w-1/2 inline-flex items-center justify-around  px-2 py-2 text-md font-bold text-center text-black bg-[#ccd6f6] rounded-lg hover:bg-[#dee4f8] focus:ring-4 focus:outline-none focus:ring-blue-300"
                   >
-                    Voir plus{" "}
+                    <span>Voir plus</span>
                     <FaGithub
                       style={{
                         width: "24px",
