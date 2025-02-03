@@ -12,21 +12,37 @@ export default function About() {
         </h2>
         <div className="grid items-center grid-cols-1 gap-12 md:grid-cols-2">
           <div>
-            <p className="mb-6 text-lg">
-              Après des expériences variées dans le transport de marchandises,
-              le poker et la distribution automatique, j&apos;ai découvert une
-              passion pour le développement informatique. Curieux et polyvalent,
-              j&apos;ai entrepris une reconversion professionnelle et suis
-              actuellement en formation chez Ada Tech School, où je développe
-              mes compétences au sein d&apos;un environnement collaboratif et
-              bienveillant.
+            <p className="mb-6 text-xl">
+              Après des{" "}
+              <span className="border-b-2 border-pink-600">
+                expériences variées
+              </span>{" "}
+              dans le transport de marchandises, le poker et la distribution
+              automatique, j&apos;ai découvert une passion pour le développement
+              informatique.{" "}
+              <span className="border-b-2 border-pink-600">Curieux</span> et{" "}
+              <span className="border-b-2 border-pink-600">polyvalent</span>,
+              j&apos;ai entrepris une{" "}
+              <span className="border-b-2 border-pink-600">
+                reconversion professionnelle{" "}
+              </span>
+              et suis actuellement en formation chez Ada Tech School, où je
+              développe mes compétences au sein d&apos;un environnement{" "}
+              <span className="border-b-2 border-pink-600">
+                collaboratif et bienveillant.
+              </span>
             </p>
             <p className="text-lg">
-              Mon parcours atypique m&apos;a permis de développer une grande
-              adaptabilité et une capacité à relever des défis variés. Je suis
-              enthousiaste à l&apos;idée d&apos;appliquer ces compétences dans
-              le domaine du développement web et de contribuer à des projets
-              innovants.
+              Mon parcours atypique m&apos;a permis de développer une grande{" "}
+              <span className="border-b-2 border-pink-600">adaptabilité</span>{" "}
+              et une capacité à{" "}
+              <span className="border-b-2 border-pink-600">
+                relever des défis
+              </span>{" "}
+              variés. Je suis enthousiaste à l&apos;idée d&apos;appliquer ces{" "}
+              <span className="border-b-2 border-pink-600">compétences</span>{" "}
+              dans le domaine du développement web et de contribuer à des
+              projets innovants.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4 h-[80%]">

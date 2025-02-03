@@ -26,14 +26,14 @@ export default function Hero() {
               Driss Kaci
             </h1>
             <p className="mb-2 text-xl text-center md:text-2xl">
-              Alternance Développeur FullStack
+              Recherche alternance Développeur FullStack
             </p>
             <p className="mb-8 text-m text-center md:text-xl">
               Début : mars 2025 - 4 jours en entreprise / 1 jour école
             </p>
             <div className="flex justify-center space-x-8 md:justify-center">
               <Link
-                href="https://github.com"
+                href="https://github.com/driss292"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,7 +47,7 @@ export default function Hero() {
                 </Button>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/driss-kaci-dev/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
