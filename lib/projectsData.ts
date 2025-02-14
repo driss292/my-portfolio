@@ -28,7 +28,7 @@ export const projectsData = [
     title: "Malin & Demi",
     description: "Site de vente de meubles d'occasion",
     type: "Projet groupe",
-    image: "/waiting.png",
+    image: "/malinetdemi.png",
     stack: [
       {
         id: 1,
@@ -43,7 +43,12 @@ export const projectsData = [
         alt: "Spring-Boot",
         name: "Spring-Boot",
       },
-      { id: 4, src: "/icon/mysql.svg", alt: "MySql", name: "MySql" },
+      {
+        id: 4,
+        src: "/icon/postgresql.svg",
+        alt: "PostgreSQL",
+        name: "PostgreSQL",
+      },
     ],
     githubLink: "https://github.com/driss292/MalinEtDemi",
   },

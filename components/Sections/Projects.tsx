@@ -29,7 +29,7 @@ export default function Projects() {
               <Image
                 width={250}
                 height={50}
-                className="rounded-t-lg object-cover w-full"
+                className="rounded-t-lg object-cover h-64 w-full"
                 src={project.image}
                 alt={`Project ${project.title}`}
               />
