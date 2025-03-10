@@ -26,10 +26,13 @@ export default function Hero() {
               Driss Kaci
             </h1>
             <p className="mb-2 text-xl text-center md:text-2xl">
-              Recherche alternance Développeur FullStack
+              Recherche alternance Concepteur Développeur FullStack
+            </p>
+            <p className="mb-2 text-xl text-center md:text-2xl">
+              36 mois | RNCP 6 en 12 mois & RNCP 7 en 24 mois
             </p>
             <p className="mb-8 text-m text-center md:text-xl">
-              Début : mars 2025 - 4 jours en entreprise / 1 jour école
+              Disponible immédiatement - 4 jours en entreprise / 1 jour école
             </p>
             <div className="flex justify-center space-x-8 md:justify-center">
               <Link

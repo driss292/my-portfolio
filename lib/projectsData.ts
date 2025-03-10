@@ -4,7 +4,7 @@ export const projectsData = [
     title: "Poker Odds Calculator",
     description: " Calculateur de probabilités au poker.",
     type: "Projet perso",
-    image: "/poker-odds.png",
+    image: "/poc.png",
     stack: [
       {
         id: 1,
